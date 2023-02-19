@@ -1,5 +1,5 @@
 # Node.js
-- task: PublishTestResults@2
+-  task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/TEST-*.xml'
@@ -28,4 +28,3 @@ steps:
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/TEST-*.xml'
-    
